@@ -13,6 +13,7 @@ class GraphqlSitemapServicePlugin implements SitemapFetcherPlugin {
       endpoint: config.graphQLEndpoint,
       apiKey: config.sitecoreApiKey,
       siteName: config.jssAppName,
+      rootItemId: '{37bfd3dd-4754-4fb4-82ca-9ff263edd12b}'
       /*
       The Sitemap Service needs a root item ID in order to fetch the list of pages for the current
       app. If your Sitecore instance only has 1 JSS App, you can specify the root item ID here;
